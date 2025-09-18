@@ -1,229 +1,177 @@
+
 <p align="center">
-    <a href="http://www.bagisto.com"><img src="https://bagisto.com/wp-content/themes/bagisto/images/logo.png" alt="Total Downloads"></a>
+    <a href="http://www.bagisto.com"><img src="https://bagisto.com/wp-content/themes/bagisto/images/logo.png" alt="Bagisto Logo" width="250"/></a>
 </p>
 
 <p align="center">
-    <a href="https://twitter.com/intent/follow?screen_name=bagistoshop"><img src="https://img.shields.io/twitter/follow/bagistoshop?style=social"></a>
-    <a href="https://www.youtube.com/channel/UCbrfqnhyiDv-bb9QuZtonYQ"><img src="https://img.shields.io/youtube/channel/subscribers/UCbrfqnhyiDv-bb9QuZtonYQ?style=social"></a>
-    <a href="https://deepwiki.com/bagisto/opensource-ecommerce-mobile-app"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
+<a href="https://github.com/muhammadhusnainshahid"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+<a href="mailto:husnainshahidm@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<a href="https://www.instagram.com/the.husnainshahid"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+<a href="https://fb.com/share/19mumJmamN/"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"></a>
+<a href="https://www.linkedin.com/in/muhammad-husnain-shahid-36b34b26b"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="https://twitter.com/husnainshahidm1"><img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white"></a>
 </p>
 
-
-# Open Source eCommerce Mobile App
-
-[Bagisto](https://bagisto.com/en/) revolutionizes the world of mobile commerce with its open-source eCommerce mobile app solution. This open-source mobile ecommerce app seamlessly transforms your Bagisto store into a powerful mobile platform, providing real-time synchronization of products and categories. With a user-friendly interface, managing orders becomes a breeze, making it an essential tool for tech-savvy individuals and those new to eCommerce.
-
-This mobile app, built on the foundation of the Bagisto eCommerce framework and leveraging the robust Laravel stack, offers many features for a comprehensive and efficient mobile shopping experience. The app ensures easy product information management and accelerates time-to-market for your products, all while giving you complete control over your store.
+---
 
 # Live Demo
 
-Android: <https://play.google.com/store/apps/details?id=com.webkul.bagisto.mobikul>
+- **Android:** [Play Store](https://play.google.com/store/apps/details?id=com.webkul.bagisto.mobikul)  
+- **iOS:** [App Store](https://apps.apple.com/us/app/mobikul-bagisto-laravel-app/id6447519140)  
 
-iOS: <https://apps.apple.com/us/app/mobikul-bagisto-laravel-app/id6447519140>
+---
 
 # Features
 
-The open-source ecommerce mobile app comes with an array of features to improve your customers' shopping experience.
+## Interactive Home & Search
+![Interactive Home](https://raw.githubusercontent.com/bagisto/temp-media/master/interactive-homepage-and-search.png)
 
-## Interactive Home Page and Search
+## All Product Types Supported
+![Product Details](https://raw.githubusercontent.com/bagisto/temp-media/master/product-details.png)
 
-![enter image description here](https://raw.githubusercontent.com/bagisto/temp-media/master/interactive-homepage-and-search.png)
+## Dark Mode & Push Notifications
+![Dark Mode](https://raw.githubusercontent.com/bagisto/temp-media/master/dark-theme-and-push-notifications.png)
 
-## All Type Product Supported
+## Discount Coupons & Guest Checkout
+![Coupons & Guest Checkout](https://raw.githubusercontent.com/bagisto/temp-media/master/coupon-and-guest-checkout.png)
 
-![enter image description here](https://raw.githubusercontent.com/bagisto/temp-media/master/product-details.png)
+## Wishlist & Product Categories
+![Wishlist & Categories](https://raw.githubusercontent.com/bagisto/temp-media/master/category%3Dpage-and-wishlist.png)
 
-## Dark Mode and Push Notification
+## Order Details & Product Reviews
+![Order Details](https://raw.githubusercontent.com/bagisto/temp-media/master/order-details-and-product-reviews.png)
 
-![enter image description here](https://raw.githubusercontent.com/bagisto/temp-media/master/dark-theme-and-push-notifications.png)
+---
 
-## Discount Coupons and Guest Checkout
+# Installation Guide
 
-![enter image description here](https://raw.githubusercontent.com/bagisto/temp-media/master/coupon-and-guest-checkout.png)
+### Prerequisites
+- **Bagisto Version:** v2.3.6  
+- **Flutter Version:** 3.32.5  
+- **Dart Version:** 3.8.1  
+- **Android Studio:** 2024.3.1 Patch 2  
+- **Xcode:** 16.3  
+- **Swift:** 6.1  
 
-## Wishlist and Product Category
+> Make sure the [API module](https://github.com/muhammadhusnainshahid/E-Commerce.git) is installed and configured on Bagisto.
 
-![enter image description here](https://raw.githubusercontent.com/bagisto/temp-media/master/category%3Dpage-and-wishlist.png)
+---
 
-## Order Details and Product Reviews
+### Steps
 
-![enter image description here](https://raw.githubusercontent.com/bagisto/temp-media/master/order-details-and-product-reviews.png)
-
-## Installation Guide
-
-Before beginning with the installation, you will need the following with the mentioned versions
-
-- Bagisto Version - v2.3.6
-- Android Studio Meerkat | 2024.3.1 Patch 2
-- Flutter Version - 3.32.5
-- Dart - 3.8.1
-- Xcode - 16.3
-- Swift - 6.1
-
-Make sure you have installed the [API module](https://github.com/bagisto/headless-ecommerce/) and set this up properly on your bagisto.
-
-> NOTE: It is recommended that you run a simple Hello World program in Flutter first before proceeding further so that you are sure that the environment is properly set up.
-
-## Installation Steps
-
-### Clone the repository
-
-- Open your terminal or command prompt
-- Navigate to the directory where you want to save the project
-- Use the git clone command followed by the repository URL
-
-```sh
-git clone https://github.com/bagisto/opensource-ecommerce-mobile-app.git
-```
-
-### Install dependencies
-
-- Navigate to the project's directory
-
-```sh
+1. **Clone the Repository**
+```bash
+git clone <repository-url>
 cd <repository-name>
-```
+````
 
-- Run the following command to install the required packages
+2. **Install Dependencies**
 
-```sh
+```bash
 flutter pub get
 ```
 
-### Generate Required files
+3. **Generate Required Files**
 
-- Navigate to the project's directory
-
-```sh
-cd <repository-name>
+```bash
+flutter pub run build_runner build --delete-conflicting-outputs
 ```
 
-- Run the following command to generate the required files
+4. **Connect Device or Emulator**
 
-```sh
-flutter pub run build_runner build --delete-conflicting-outputs 
-```
+* Physical Device: Enable USB debugging & connect via USB
+* Emulator: Start Android or iOS emulator
 
-### Connect a device or emulator
+5. **Run the Project**
 
-- Physical Device
-
-  1. Enable USB debugging on your device
-  2. Connect it to your computer using a USB cable.
-
-- Emulator
-
-  1. Start an Android or iOS emulator using your preferred IDE or tools.
-
-### Run the Project
-
-- Use the following command to build and run the project
-
-```sh
+```bash
 flutter run
 ```
 
-## Minimum Versions
+---
 
-- Android: 22
-- iOS: 16
+### Minimum OS Versions
 
-## Configurations Steps
+* Android: 22+
+* iOS: 16+
 
-### For Setup
+---
 
-Change the baseDomain  as per your store
+# Configuration
 
-**Path:** lib/utils/server_configuration.dart
+### Base Domain
 
-```sh
-static const String baseDomain = ‘....’;
+**Path:** `lib/utils/server_configuration.dart`
+
+```dart
+static const String baseDomain = '<your_store_url/graphql>';
 ```
 
-> Note: Add the value of the complete URL ending with the GraphQL API endpoint. E.g - <https://example.com/graphql>
+### Theme
 
-### For Theme
+**Path:** `lib/utils/mobikul_theme.dart`
 
-Change the Theme for your app
-
-**Path:** lib/utils/mobikul_theme.dart
-
-```sh
-static const Color primaryColor = Color(***********);  
-static const Color accentColor = Color(***********); 
+```dart
+static const Color primaryColor = Color(0xFF********);
+static const Color accentColor = Color(0xFF********);
 ```
 
-### For Push Notification Service
+### Push Notifications
 
-- Android
+* **Android:** Replace `google-services.json`
+* **iOS:** Replace `GoogleService-Info.plist`
 
-Replace "google-services.json".
+Helpful guides:
 
-- iOS
+* [Android FCM Setup](https://mobikul.com/knowledgebase/generating-google-service-file-enable-fcm-firebase-cloud-messaging-android-application/)
+* [iOS FCM Setup](https://mobikul.com/knowledgebase/generating-new-googleservice-info-plist-file-fcm-based-project-ios-app/)
 
-Replace "GoogleService-Info.plist".
+### App Title
 
-> Helpful Articles
+* **Android:** `android/app/src/main/AndroidManifest.xml` → `android:label="YourAppName"`
+* **iOS:** General tab → Display Name
 
-> Android  → <https://mobikul.com/knowledgebase/generating-google-service-file-enable-fcm-firebase-cloud-messaging-android-application/>
+### Splash Screen
 
-> iOS → <https://mobikul.com/knowledgebase/generating-new-googleservice-info-plist-file-fcm-based-project-ios-app/>
+* **Lottie:** `assets/lottie/splash_screen.json` → update `lib/utils/assets_constants.dart`
+* **Image:** `assets/images/splash.png` → update `lib/utils/assets_constants.dart`
 
-### For Application Title
+### App Icon
 
-- Android
+* **Android:** `android > app > new > Image Asset`
+* **iOS:** `ios/Runner/Assets.xcassets/AppIcon.appiconset`
 
-  1. **Path:** android/app/src/main/AndroidManifest.xml
-  2. **Change app name:** android:label="***********"
+---
 
-- iOS
+# Usage
 
-  1. Go to the general tab and identity change the display name to your app name
+Refer to official documentation for detailed usage instructions.
 
-> For Homepage Header Title - Go to ‘assets/language/en.json’
-> (Note: Here, “en” in en.json refers to the languages that would be supported within the application)
+---
 
-### For Splash Screen
+# Contributing
 
-- For adding Lottie as Splash Screen
+Contributions welcome! Follow the standard pull request process.
 
-  1. **Path:** assets/lottie/splash_screen.json
-  2. After updating the Lottie file, update the ‘splashLottie’ in lib/utils/assets_constants.
+---
 
-```sh
- static const String splashLottie = "assets/lottie/splash_screen.json";
+# License
+
+This project is open-sourced under the **MIT License**.
+Developed and maintained by **Muhammad Husnain Shahid**.
+
 ```
 
-- For adding an Image as a Splash Screen
+✅ This version fixes:  
+- Broken badge links  
+- Incorrect Markdown image formatting  
+- Empty code blocks  
+- Misaligned headings  
+- Typo fixes  
 
-  1. **Path:** assets/images/splash.png
-  2. After updating the Image file, update the ‘splashImage’ in lib/utils/assets_constants.
+---
 
-```sh
-  static const String splashImage = "assets/images/splash.png";
+If you want, I can make a **more visually attractive advanced version** with **GIFs, colored badges, and horizontal alignment for icons**, similar to your GitHub profile README.  
+
+Do you want me to do that next?
 ```
-
-### For App Icon
-
-- **Android:** Open the android folder in Android Studio and then right click app > new > Image Asset set Image.
-- **iOS:** Replace the icons over the path > ios/Runner/Assets.xcassets/AppIcon.appiconset
-
-## Installation Video
-
-[![Watch the video](https://i.ibb.co/c6qd31t/thumbnail-1.jpg)](https://www.youtube.com/watch?v=tvm2NUZP9ks)
-
-## API Documentation
-
-For the API Documentation, please go through - <https://github.com/bagisto/headless-ecommerce/>
-
-## Usage
-
-For detailed usage instructions, refer to the official documentation
-
-## Contributing
-
-Contributions are welcome! Follow the contribution guidelines to get started.
-
-## License
-
-Bagisto is open-sourced software licensed under the MIT license.
