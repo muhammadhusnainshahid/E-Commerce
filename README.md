@@ -31,17 +31,15 @@
 
 <div align="center">
 
-### 🏠 Modern Home Interface
-<img src="https://github.com/user-attachments/assets/17880485-4893-4c6d-9112-50848b46ffd2" width="280" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+| | | |
+|:---:|:---:|:---:|
+| **🏠 Modern Home Interface** | **🔍 Product Discovery** | **🛒 Smart Cart Management** |
+| <img src="https://github.com/user-attachments/assets/17880485-4893-4c6d-9112-50848b46ffd2" width="180" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);"> | <img src="https://github.com/user-attachments/assets/24cbe17c-9e66-4758-bacc-dc9ba7cd565e" width="180" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);"> | <img src="https://github.com/user-attachments/assets/d6a636f7-d041-4e6b-882d-42369671ddaf" width="180" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);"> |
 
-### 🔍 Product Discovery
-<img src="https://github.com/user-attachments/assets/24cbe17c-9e66-4758-bacc-dc9ba7cd565e" width="280" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-
-### 🛒 Smart Cart Management
-<img src="https://github.com/user-attachments/assets/d6a636f7-d041-4e6b-882d-42369671ddaf" width="280" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-
-### 👤 User Profile
-<img src="https://github.com/user-attachments/assets/36c82212-67d5-4625-9e14-af5eb7d348cb" width="280" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+| | |
+|:---:|:---:|
+| **👤 User Profile** | **📱 More Screens** |
+| <img src="https://github.com/user-attachments/assets/36c82212-67d5-4625-9e14-af5eb7d348cb" width="180" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);"> | <img src="https://github.com/user-attachments/assets/8cbc495f-da50-465f-9754-79bef4331445" width="180" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);"> |
 
 </div>
 
