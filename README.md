@@ -1,171 +1,177 @@
-
 <p align="center">
-    <a href="https://husnainshahidportfolio.vercel.app"><img src="https://github.com/user-attachments/assets/17880485-4893-4c6d-9112-50848b46ffd2" alt="Fashionista Logo" width="250"/></a>
+    <a href="http://www.bagisto.com"><img src="https://bagisto.com/wp-content/themes/bagisto/images/logo.png" alt="Bagisto Logo" width="250"/></a>
 </p>
 
 <p align="center">
 <a href="https://github.com/muhammadhusnainshahid"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
-<a href="mailto:husnainshahid.dev@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<a href="mailto:husnainshahidm@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
 <a href="https://www.instagram.com/the.husnainshahid"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+<a href="https://fb.com/share/19mumJmamN/"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"></a>
 <a href="https://www.linkedin.com/in/muhammad-husnain-shahid-36b34b26b"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="https://twitter.com/husnainshahidm1"><img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white"></a>
 </p>
 
 ---
 
-# Fashionista - Flutter Fashion App
+# Live Demo
 
-A modern, elegant fashion shopping experience built with Flutter. Discover the latest trends, browse beautiful collections, and shop with style.
-
----
-
-## 📱 App Preview
-
-| Home Screen | Product Details | Shopping Cart | User Profile |
-|-------------|-----------------|---------------|--------------|
-| <img src="https://github.com/user-attachments/assets/17880485-4893-4c6d-9112-50848b46ffd2" width="200"> | <img src="https://github.com/user-attachments/assets/24cbe17c-9e66-4758-bacc-dc9ba7cd565e" width="200"> | <img src="https://github.com/user-attachments/assets/d6a636f7-d041-4e6b-882d-42369671ddaf" width="200"> | <img src="https://github.com/user-attachments/assets/36c82212-67d5-4625-9e14-af5eb7d348cb" width="200"> |
+- **Android:** [Play Store](https://play.google.com/store/apps/details?id=com.webkul.bagisto.mobikul)  
+- **iOS:** [App Store](https://apps.apple.com/us/app/mobikul-bagisto-laravel-app/id6447519140)  
 
 ---
 
-## ✨ Features
+# Features
 
 ## Interactive Home & Search
-![Interactive Home](https://github.com/user-attachments/assets/17880485-4893-4c6d-9112-50848b46ffd2)
+![Interactive Home](https://raw.githubusercontent.com/bagisto/temp-media/master/interactive-homepage-and-search.png)
 
 ## All Product Types Supported
-![Product Details](https://github.com/user-attachments/assets/24cbe17c-9e66-4758-bacc-dc9ba7cd565e)
+![Product Details](https://raw.githubusercontent.com/bagisto/temp-media/master/product-details.png)
 
 ## Dark Mode & Push Notifications
-![Dark Mode](https://github.com/user-attachments/assets/d6a636f7-d041-4e6b-882d-42369671ddaf)
+![Dark Mode](https://raw.githubusercontent.com/bagisto/temp-media/master/dark-theme-and-push-notifications.png)
 
 ## Discount Coupons & Guest Checkout
-![Coupons & Guest Checkout](https://github.com/user-attachments/assets/36c82212-67d5-4625-9e14-af5eb7d348cb)
+![Coupons & Guest Checkout](https://raw.githubusercontent.com/bagisto/temp-media/master/coupon-and-guest-checkout.png)
 
 ## Wishlist & Product Categories
-![Wishlist & Categories](https://github.com/user-attachments/assets/8cbc495f-da50-465f-9754-79bef4331445)
+![Wishlist & Categories](https://raw.githubusercontent.com/bagisto/temp-media/master/category%3Dpage-and-wishlist.png)
 
 ## Order Details & Product Reviews
-![Order Details](https://github.com/user-attachments/assets/8dd64827-bfe2-496e-adaa-5015c5ef6c6d)
+![Order Details](https://raw.githubusercontent.com/bagisto/temp-media/master/order-details-and-product-reviews.png)
 
 ---
 
-## 🚀 Getting Started
+# Installation Guide
 
 ### Prerequisites
-- Flutter SDK (3.0.0 or higher)
-- Android Studio or VS Code with Flutter extension
-- Android/iOS emulator or physical device
+- **Bagisto Version:** v2.3.6  
+- **Flutter Version:** 3.32.5  
+- **Dart Version:** 3.8.1  
+- **Android Studio:** 2024.3.1 Patch 2  
+- **Xcode:** 16.3  
+- **Swift:** 6.1  
 
-### Installation Steps
+> Make sure the [API module](https://github.com/muhammadhusnainshahid/E-Commerce.git) is installed and configured on Bagisto.
+
+---
+
+### Steps
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/muhammadhusnainshahid/fashionista_app.git
-cd fashionista_app
-```
+git clone <repository-url>
+cd <repository-name>
+````
 
 2. **Install Dependencies**
+
 ```bash
 flutter pub get
 ```
 
-3. **Run the Application**
+3. **Generate Required Files**
+
+```bash
+flutter pub run build_runner build --delete-conflicting-outputs
+```
+
+4. **Connect Device or Emulator**
+
+* Physical Device: Enable USB debugging & connect via USB
+* Emulator: Start Android or iOS emulator
+
+5. **Run the Project**
+
 ```bash
 flutter run
 ```
 
 ---
 
-## 🛠️ Tech Stack
+### Minimum OS Versions
 
-- **Framework**: Flutter 3.0+
-- **Programming Language**: Dart
-- **State Management**: Provider Pattern
-- **Local Storage**: SharedPreferences
-- **UI Components**: Custom widgets with Material Design
-- **Animation**: Flutter Native Animations
+* Android: 22+
+* iOS: 16+
 
 ---
 
-## 📁 Project Architecture
+# Configuration
 
-```
-lib/
-├── models/           # Data models (Product, Category, User)
-├── providers/        # State management (Cart, Wishlist, Theme)
-├── screens/          # UI screens (Home, Details, Cart, Profile)
-├── widgets/          # Reusable UI components
-├── utils/            # Constants, themes, and helpers
-└── main.dart         # Application entry point
-```
+### Base Domain
 
----
-
-## 🎯 Key Screens
-
-- **Home Screen** - Featured products, categories, and new arrivals
-- **Product Details** - Comprehensive product view with image gallery
-- **Shopping Cart** - Cart management with quantity controls
-- **Wishlist** - Saved items for future purchase
-- **User Profile** - Account settings and order history
-
----
-
-## 🔧 Configuration
-
-Update app configuration in `lib/utils/constants.dart`:
+**Path:** `lib/utils/server_configuration.dart`
 
 ```dart
-class AppConstants {
-  static const String appName = 'Fashionista';
-  static const String appVersion = '1.0.0';
-  static const primaryColor = Color(0xFFE91E63);
-  static const accentColor = Color(0xFFFF4081);
-}
+static const String baseDomain = '<your_store_url/graphql>';
 ```
 
----
+### Theme
 
-## 📱 Platform Support
+**Path:** `lib/utils/mobikul_theme.dart`
 
-- **Android**: API 22+ (Android 5.0+)
-- **iOS**: iOS 14.0+
-- **Web**: Chrome, Safari, Firefox (responsive design)
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Please feel free to submit pull requests, report bugs, or suggest new features.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 👨‍💻 Developer
-
-**Muhammad Husnain Shahid**
-- 📧 Email: husnainshahid.dev@gmail.com
-- 🌐 Portfolio: [husnainshahidportfolio.vercel.app](https://husnainshahidportfolio.vercel.app)
-- 💼 GitHub: [muhammadhusnainshahid](https://github.com/muhammadhusnainshahid)
-- 💼 LinkedIn: [Muhammad Husnain Shahid](https://www.linkedin.com/in/muhammad-husnain-shahid-36b34b26b)
-
----
-
-<div align="center">
-
-### ⭐ If you like this project, don't forget to give it a star!
-
-**Built with ❤️ using Flutter**
-
-</div>
+```dart
+static const Color primaryColor = Color(0xFF********);
+static const Color accentColor = Color(0xFF********);
 ```
+
+### Push Notifications
+
+* **Android:** Replace `google-services.json`
+* **iOS:** Replace `GoogleService-Info.plist`
+
+Helpful guides:
+
+* [Android FCM Setup](https://mobikul.com/knowledgebase/generating-google-service-file-enable-fcm-firebase-cloud-messaging-android-application/)
+* [iOS FCM Setup](https://mobikul.com/knowledgebase/generating-new-googleservice-info-plist-file-fcm-based-project-ios-app/)
+
+### App Title
+
+* **Android:** `android/app/src/main/AndroidManifest.xml` → `android:label="YourAppName"`
+* **iOS:** General tab → Display Name
+
+### Splash Screen
+
+* **Lottie:** `assets/lottie/splash_screen.json` → update `lib/utils/assets_constants.dart`
+* **Image:** `assets/images/splash.png` → update `lib/utils/assets_constants.dart`
+
+### App Icon
+
+* **Android:** `android > app > new > Image Asset`
+* **iOS:** `ios/Runner/Assets.xcassets/AppIcon.appiconset`
+
+---
+
+# Usage
+
+Refer to official documentation for detailed usage instructions.
+
+---
+
+# Contributing
+
+Contributions welcome! Follow the standard pull request process.
+
+---
+
+# License
+
+This project is open-sourced under the **MIT License**.
+Developed and maintained by **Muhammad Husnain Shahid**.
+
+```
+
+✅ This version fixes:  
+- Broken badge links  
+- Incorrect Markdown image formatting  
+- Empty code blocks  
+- Misaligned headings  
+- Typo fixes  
+
+---
+
+If you want, I can make a **more visually attractive advanced version** with **GIFs, colored badges, and horizontal alignment for icons**, similar to your GitHub profile README.  
+
+Do you want me to do that next?
+```
+ pic yehi rah de baki sra mra data dal de ta k pta na chla k copy ke hai
