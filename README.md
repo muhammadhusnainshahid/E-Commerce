@@ -28,13 +28,23 @@ A modern, elegant fashion shopping experience built with Flutter. Discover the l
 
 ## ✨ Features
 
-- **🛍️ Beautiful UI Design** - Modern and elegant interface with smooth animations
-- **👗 Smart Categories** - Organized fashion categories for easy browsing
-- **📱 Product Details** - Comprehensive product information with high-quality images
-- **🛒 Shopping Cart** - Intuitive cart management with real-time updates
-- **💖 Wishlist** - Save and manage your favorite fashion items
-- **👤 User Profile** - Personalized account management and order history
-- **🎨 Dark/Light Theme** - Customizable theme options for better user experience
+## Interactive Home & Search
+![Interactive Home](https://github.com/user-attachments/assets/17880485-4893-4c6d-9112-50848b46ffd2)
+
+## All Product Types Supported
+![Product Details](https://github.com/user-attachments/assets/24cbe17c-9e66-4758-bacc-dc9ba7cd565e)
+
+## Dark Mode & Push Notifications
+![Dark Mode](https://github.com/user-attachments/assets/d6a636f7-d041-4e6b-882d-42369671ddaf)
+
+## Discount Coupons & Guest Checkout
+![Coupons & Guest Checkout](https://github.com/user-attachments/assets/36c82212-67d5-4625-9e14-af5eb7d348cb)
+
+## Wishlist & Product Categories
+![Wishlist & Categories](https://github.com/user-attachments/assets/8cbc495f-da50-465f-9754-79bef4331445)
+
+## Order Details & Product Reviews
+![Order Details](https://github.com/user-attachments/assets/8dd64827-bfe2-496e-adaa-5015c5ef6c6d)
 
 ---
 
@@ -158,3 +168,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Built with ❤️ using Flutter**
 
 </div>
+```
