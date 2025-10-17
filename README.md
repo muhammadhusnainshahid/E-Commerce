@@ -27,23 +27,30 @@
 
 ---
 
-## ✨ Featured Screens
+# 🚀 Features
 
 <div align="center">
 
-### 🏠 Modern Home Interface
+## 🔍 Interactive Home & Search
 <img src="https://github.com/user-attachments/assets/17880485-4893-4c6d-9112-50848b46ffd2" width="280" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
 
-### 🔍 Product Discovery
+## 📱 All Product Types Supported  
 <img src="https://github.com/user-attachments/assets/24cbe17c-9e66-4758-bacc-dc9ba7cd565e" width="280" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
 
-### 🛒 Smart Cart Management
+## 🌙 Dark Mode & Notifications
 <img src="https://github.com/user-attachments/assets/d6a636f7-d041-4e6b-882d-42369671ddaf" width="280" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
 
-### 👤 User Profile
+## 🎫 Discount Coupons & Checkout
 <img src="https://github.com/user-attachments/assets/36c82212-67d5-4625-9e14-af5eb7d348cb" width="280" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
 
+## 💖 Wishlist & Categories
+<img src="https://github.com/user-attachments/assets/8cbc495f-da50-465f-9754-79bef4331445" width="280" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+
+## 📦 Order Details & Reviews
+<img src="https://github.com/user-attachments/assets/8dd64827-bfe2-496e-adaa-5015c5ef6c6d" width="280" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+
 </div>
+
 ---
 
 ## 🚀 Features
